@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Soft teal background */
+}
+
+nav {
+    background-color: #003366; /* Deep blue */
+}
+
+nav a {
+    color: #ffffff; /* White text */
+}
+
+section {
+    padding: 60px 0;
+}
+
+#about {
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 150px 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#about .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#about .name {
+    flex: 1;
+    max-width: 40%; /* Adjust as needed */
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+#about .name h1 {
+    color: #003366; /* Deep blue */
+    font-size: 3rem; /* Adjust font size as needed */
+}
+
+#about .content {
+    flex: 2;
+    max-width: 55%; /* Adjust as needed */
+}
+
+#about .content p {
+    color: #333333; /* Charcoal */
+    font-size: 1.1rem; /* Adjust font size as needed */
+    line-height: 1.6;
+}
+
+#projects, #skills, #contact {
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: 20px 0;
+}
+
+#projects h2, #skills h2, #contact h2 {
+    color: #003366; /* Deep blue */
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.skill-card {
+    background-color: #f2f2f2; /* White smoke */
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(33% - 10px);
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h5 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #003366; /* Deep blue */
+}
+
+footer {
+    background-color: #003366; /* Deep blue */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+}

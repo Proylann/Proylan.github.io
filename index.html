@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <div class="name">
+                <h1>Froilan M. De Vera</h1>
+            </div>
+            <div class="content">
+                <p>
+                    I am a passionate developer who loves crafting intuitive, responsive websites and solving challenging problems. 
+                    With a strong foundation in front-end technologies such as HTML, CSS, and JavaScript, combined with a growing 
+                    knowledge of back-end development using PHP. 
+                    I take pride in delivering high-quality code, and I am always eager to learn and adapt to new technologies.
+                </p>
+                <p>
+                    Outside of programming, I enjoy learning about the latest trends in technology and design. I believe in continuous 
+                    growth and strive to improve both my coding skills and my ability to communicate effectively in a team environment. 
+                    Whether it's collaborating on a project or taking on a freelance gig, I approach every task with professionalism 
+                    and creativity.
+                </p>
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/ColorTest.png" class="card-img-top" alt="Project 1" style="height: 200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Blinding Lights</h5>
+                            <p class="card-text">is a Web platform solely created to test the eyesight of the user</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/Flank.png" class="card-img-top" alt="Project 2" style="height: 200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Flank Incursion</h5>
+                            <p class="card-text">is a 2d platformer game made using Java's Game Development framework LIBGDX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/Optic.png" class="card-img-top" alt="Project 3" style="height: 200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Math Game</h5>
+                            <p class="card-text">A game created using Java where the user can test his math skills</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills  -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h5>HTML & CSS</h5>
+                    <p>Experienced in building responsive layouts and user interfaces with HTML5 and CSS3.</p>
+                </div>
+                <div class="skill-card">
+                    <h5>JavaScript</h5>
+                    <p>Proficient in JavaScript, with experience in frameworks like React.js for dynamic front-end applications.</p>
+                </div>
+                <div class="skill-card">
+                    <h5>PHP</h5>
+                    <p>Back-end development experience with PHP and creating RESTful APIs.</p>
+                </div>
+                <div class="skill-card">
+                    <h5>Java</h5>
+                    <p>knowledgeable about Objected Oriented Programming.</p>
+                </div>
+                <div class="skill-card">
+                    <h5>Python</h5>
+                    <p>knowledgeable about Python's scripting capabilities</p>
+                </div>
+                <div class="skill-card">
+                    <h5>Databases</h5>
+                    <p>Experience with databases such as MySQL, SQLITE, and PHP for efficient data handling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Froilan M. De Vera. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
